@@ -273,7 +273,7 @@ body {
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     .image-container {
         display: flex;
         flex-wrap: wrap;
@@ -349,13 +349,6 @@ body {
         animation-fill-mode: forwards;
 
     }
-
-    .sales h1 {
-        font-size: 12px;
-        color: red;
-
-    }
-
     @keyframes zoom {
         0% {
             opacity: 0;
@@ -367,4 +360,12 @@ body {
             transform: scale(1);
         }
     }
+
+    .sales h1 {
+        font-size: 12px;
+        color: red;
+
+    }
+
+    
 }
