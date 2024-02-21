@@ -89,7 +89,20 @@ cursor:pointer;
     color:white;
     padding:10px;
     border-radius: 20px;
+    border:1px solid black;
+    outline: none;
+    cursor: pointer;
 }
+.navbar p:hover
+{
+   background-color: #fdffcd;
+    color:black;
+    transition:1s;
+      
+}
+
+
+
 /*image section*/
 .image
 {
@@ -103,6 +116,24 @@ cursor:pointer;
     padding:20px;
     bottom: 250px;
     left:100px;
+    animation-name:zoom;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes zoom
+{
+ 0%
+ {
+    opacity: 0;
+    transform: scale(0);
+ }
+ 100%
+ {
+    opacity: 1;
+    transform: scale(1);
+ }
 }
 .image img
 {
